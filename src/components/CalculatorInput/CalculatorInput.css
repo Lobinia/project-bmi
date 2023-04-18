@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.input-container>span {
+    pointer-events: none;
+    width: 25%;
+    height: 28px;
+    position: absolute;
+    text-align: end;
+    color:rgba(255,255,255,0.4);
+}
+
+@media only screen and (max-width: 600px) {
+    .input-container {
+        width: 100%;
+    }
+
+    .input-container>span {
+        width: 80%;
+    }
+}

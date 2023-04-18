@@ -1,0 +1,57 @@
+.right-side {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.right-side-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 75%;
+    border-radius: 10%;
+}
+
+.thinness {
+    background-color: #96A3AB;
+}
+
+.normal {
+    background-color: #0EAD69;
+}
+
+.overweight {
+    background-color: #E2B039;
+}
+
+.obesity {
+    background-color: #C3423F;
+}
+
+.right-side-container>img {
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.right-side-container>h3 {
+    margin: 0;
+}
+
+.right-side-container>h4 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .right-side {
+        width:100%;
+    }
+
+    .right-side-container{
+        height: 100%;
+    }
+}
